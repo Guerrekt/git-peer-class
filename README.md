@@ -1,8 +1,9 @@
 # git-peer-class
 **A training repository for a git peer class at 42.**
+
 dsy@student.42.fr
 
-This repository is will be testing grounds for participants of the git-peer-class, here we will learn about the **basics of version control**, **branching strategies**, and **contributing** to other repositories.
+This repository is will be testing grounds for participants of the git-peer-class, here we will learn about the basics of version control, branching strategies, and contributing to other repositories.
 
 Difficulty : Beginner
 
