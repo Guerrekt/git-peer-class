@@ -1,0 +1,56 @@
+
+# Commandes vu pendant la peer class
+
+### Configuration SSH
+
+ssh-keygen
+eval $(ssh-agent)
+ssh-add "path-to-key"
+
+### Connection au remote
+
+git init
+git remote add [name] [url]
+git pull --set-upstream [origin]
+git clone [url]
+
+### Gestion du repo
+
+git config
+    --global alias.[alias] [commande]
+    --global user.name [name]
+    --global user.email [email]
+    --global author.[name]
+
+git reset [path] //permet d'annuler l'ajout d'un fichier
+
+git add [path]
+    add -p [path] //permet de add partiellement un fichier
+
+git commit [options]
+    -m [message] //permet de fournir uniquement le corps de message
+
+git push [remote] [branch]
+    push --set-upstream [url]
+
+git stash save [nom] //Sauvegarde et cache les fichiers en staging area
+git stash pop [nom] //Restaure la sauvegarde
+
+### Gestion des branches
+
+git remote -v //liste les remotes
+git branch -a //liste les branches sur le repo
+git branch -d [branch] //supprime une branche
+git checkout [name] //cree une branche
+git checkout [branch-example] //deplace HEAD sur branch-example
+git checkout [commit-hash] // deplace HEAD sur commit-hash
+git merge [branch] //combine la version courante avec celle de branch
+git log //affiche la liste des precedents commits
+    --all //affiche la liste de TOUT les commits
+    --oneline //affiche un resume en une ligne
+    --graph //affiche le resultat sous forme de graphe
+
+### VSCode-Github
+Appuyer sur '>' dans le repo github
+
+
