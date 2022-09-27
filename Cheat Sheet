@@ -51,6 +51,13 @@ git log //affiche la liste des precedents commits
     --oneline //affiche un resume en une ligne
     --graph //affiche le resultat sous forme de graphe
 
+### Commit sur plusieurs remotes
+git remote add [name_1] [url]
+git remote set-url --add --push [name_1] [url]
+git remote set-url --add --push [name_2] [url]
+...
+git remote set-url --add --push [name_n] [url]
+
 ### VSCode-Github
 Appuyer sur '>' dans le repo github
 
