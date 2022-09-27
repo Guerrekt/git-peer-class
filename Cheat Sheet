@@ -6,6 +6,7 @@
 ssh-keygen
 eval $(ssh-agent)
 ssh-add "path-to-key"
+ssh -vT git@github.com
 
 ### Connection au remote
 
