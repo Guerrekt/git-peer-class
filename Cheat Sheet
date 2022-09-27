@@ -10,6 +10,7 @@ ssh-add "path-to-key"
 ### Connection au remote
 
 git init
+git revert [commit]
 git remote add [name] [url]
 git pull --set-upstream [origin]
 git clone [url]
