@@ -23,6 +23,7 @@ git config
     --global author.[name]
 
 git reset [path] //permet d'annuler l'ajout d'un fichier
+git restore [path] //annule tout les changements depuis le dernier commit
 
 git add [path]
     add -p [path] //permet de add partiellement un fichier
